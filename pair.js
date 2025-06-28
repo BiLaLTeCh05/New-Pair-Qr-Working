@@ -120,7 +120,7 @@ text: desc,
 contextInfo: {
 externalAdReply: {
 title: "POPKID-XTECH",
-thumbnailUrl: "https://ibb.co/TnTVWTj",
+thumbnailUrl: "https://ibb.co/0RnMrNXv",
 sourceUrl: "https://whatsapp.com/channel/0029VbAcrzaBfxo0D38BLa3u",
 mediaType: 2,
 renderLargerThumbnail: true,
