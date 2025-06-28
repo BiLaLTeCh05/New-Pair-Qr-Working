@@ -2,8 +2,8 @@
     "name": "♥️GOLD MD PAIR QR♥️",
     "description": "SESSION ID GENERATOR FOR WHATSAPP BOTS",
     "logo": "https://i.ibb.co/wspzc9t/IMG-20240328-WA0000.jpg",
-    "repository": "https://github.com/UF-prince/POPKID-PAIR-QR",
-    "keywords": ["@Uf-prince"],
+    "repository": "https://github.com/BiLaLTeCh05/New-Pair-Qr-Working",
+    "keywords": ["@BiLaLTeCh05"],
     "success_url": "/", 
     "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
     "env": {      
