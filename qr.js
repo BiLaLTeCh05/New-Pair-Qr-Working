@@ -101,7 +101,7 @@ text: desc,
 contextInfo: {
 externalAdReply: {
 title: " bilal-md",
-thumbnailUrl: "https://ibb.co/0RnMrNXv",
+thumbnailUrl: "https://i.postimg.cc/7LWBgYMq/bilal.jpg",
 sourceUrl: "https://whatsapp.com/channel/0029VbAJA1THwXbA74a5pO1s",
 mediaType: 1,
 renderLargerThumbnail: true
