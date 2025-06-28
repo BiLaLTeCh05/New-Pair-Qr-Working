@@ -70,48 +70,30 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "POPKID;;;" + string_session;
+                        let md = "BILAL-MD;;;" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hello  1.0.0 User! 👋🏻*
-                        
-                         
-                          
-                            
-*A HEARTFELT THANK YOU FOR JOINING OUR INNER CIRCLE! ✨*
+                        let desc = `**_SESSION ID RECIEVED SUCCESSFULLY_*
 
+╭══════════════⊷
+┃ *_👑 BILAL-MD WHATSAPP BOT 👑_*
+╰══════════════⊷
+╭══════════════⊷
+┃ *_♥️ 𝗥𝗘𝗣𝗢 ♥️_*
+┃ _https://github.com/BiLaLTeCh05/BILAL-MD_
+╰══════════════⊷
+╭══════════════⊷
+┃ *_🥰 OWNER 🥰_*
+┃ _https://wa.me/923078071982_
+╰══════════════⊷
+╭══════════════⊷
+┃ *_THANKS FOR CHOOSING BILAL-MD😘_*
+┃ *_FORK THE REPO AND GIVE START⭐_*
+╰══════════════⊷
+╭══════════════⊷
+┃ *_BEST MULTIDEVICE WHATSAPP BOT 🥰_*
+╰══════════════⊷
 
-
-░▒▓█► CLASSIFIED INTEL INITIATED ◄█▓▒░
-
-⚠️ **ABSOLUTE DISCRETION ADVISED:** Your Session Cipher is the keystone to this sanctuary. Guard it with the vigilance of a digital sentinel. Sharing it breaches the trust and the gateway. You are now among the select, welcomed by GLOBALTECHKINGS-MASTERY 🗝️🌌
-
-
-**🔓 ACCESS GRANTED TO ELITE RESOURCES 🔓**
-
-
-📲 Immerse yourself further within our dedicated channels:
-
-
-**WhatsApp Nexus 🔗:**
-
-* Unveil clandestine development chronicles 🕵️‍♀️
-* Receive real-time protocol updates and strategic briefings 📰
-* Gain privileged entry to nascent functionalities and experimental builds 🧪
-
-
-**GitHub Forge 🛠️:**
-
-* Engage in the crafting process – your contributions sculpt the future! 👨‍💻🚀
-
-
-**Telegram Command Center 📡:**
-
-* Secure direct transmissions of critical updates, profound analyses, and more! You are now an integral part of an ascending force! 🌠🛡️
-
-
-Your journey with GLOBALTECHKINGS-MASTERY has just begun. Prepare for enlightenment and empowerment! 🔥🚀
-
-I've added extra spaces throughout the message to improve readability and visual separation between the sections. Let me know if you'd like any further adjustments!`;
+> *BILAL TECH*`;
 
 
                         await sock.sendMessage(sock.user.id, {
@@ -129,34 +111,14 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Hello GOTAR 𝕸𝕯 1.0.0 User! 👋🏻* 
-                            
-> 🚨 *CONFIDENTIALITY ALERT!* 🚨
-
-Keep your session ID under wraps! Don't share it with anyone.
-
-Thanks for choosing GOTAR-MD 1.0.0 🚩!
-
-*You're one step ahead!* Join our WhatsApp Channel ⤵️ (https://whatsapp.com/channel/0029VbAJA1THwXbA74a5pO1s) and get exclusive updates!*
-
-*Ready to level up?* Fork our repo ⬇️ [https://github.com/GOTAR-MD/GOTAR_MD] and contribute to the community!*
-
-*We've got a secret for you...* 🤫 Join our channel to unlock exclusive content
-
-*You're the missing piece!* Help us build something amazing. Fork the repo now!
-
-*Stay ahead of the game!* Join our channel for the latest updates and behind-the-scenes insights.
-
-You're part of something awesome!"
-
-> *© GOTAR-MD X SUHAIL BRU*`; 
+                            let desc = `BILAL-MD WHATSAPP BOT`; 
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: " 𝖒𝖉 𝖈𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉 ✅  ",
-thumbnailUrl: "https://files.catbox.moe/3bwori.jpg",
-sourceUrl: "https://whatsapp.com/channel/",
+title: " BILAL-MD  ",
+thumbnailUrl: "https://ibb.co/TnTVWTj",
+sourceUrl: "https://whatsapp.com/channel/0029VbAcrzaBfxo0D38BLa3u",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
@@ -168,7 +130,7 @@ showAdAttribution: true
                     await delay(10);
                     await sock.ws.close();
                     await removeFile('./temp/' + id);
-                    console.log(`👤 ${sock.user.id} 𝗖𝗼𝗻𝗻𝗲𝗰𝘁𝗲𝗱 ✅ 𝗥𝗲𝘀𝘁𝗮𝗿𝘁𝗶𝗻𝗴 𝗽𝗿𝗼𝗰𝗲𝘀𝘀...`);
+                    console.log(`👤 ${sock.user.id} CONNECTED`);
                     await delay(10);
                     process.exit();
                 } else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
