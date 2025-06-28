@@ -77,29 +77,28 @@ var randomItem = selectRandomItem(items);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
                         let md = "POPKID;;;" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*🇭 🇮 🩷* 
+                        let desc = `*_SESSION ID RECIEVED SUCCESSFULLY_*
 
 ╭══════════════⊷
-┃ ⚡𝗣𝗢𝗣𝗞𝗜𝗗 𝗫𝗧𝗘𝗖𝗛 𝗕𝗢𝗧
+┃ *_👑 BILAL-MD WHATSAPP BOT 👑_*
 ╰══════════════⊷
 ╭══════════════⊷
-┃ 🪆𝗥𝗘𝗣𝗢
-┃https://github.com/Popkiddevs/POPKID-XTECH
+┃ *_♥️ 𝗥𝗘𝗣𝗢 ♥️_*
+┃ _https://github.com/BiLaLTeCh05/BILAL-MD_
 ╰══════════════⊷
 ╭══════════════⊷
-┃ ❤️‍🩹𝗦𝗘𝗦𝗦𝗜𝗢𝗡 𝗜𝗗
-┃https://popkidsessiioons.onrender.com
+┃ *_🥰 OWNER 🥰_*
+┃ _https://wa.me/923078071982_
 ╰══════════════⊷
 ╭══════════════⊷
-┃ ғᴏʀᴋ ᴀɴᴅ sᴛᴀʀ ᴏᴜʀ ʀᴇᴘᴏ
-┃ ғᴏʀ ᴄᴏᴜʀᴀɢᴇ ᴘʟᴇᴀsᴇ
+┃ *_THANKS FOR CHOOSING BILAL-MD😘_*
+┃ *_FORK THE REPO AND GIVE START⭐_*
 ╰══════════════⊷
 ╭══════════════⊷
-┃ 𝐏𝐎𝐏𝐊𝐈𝐃
-┃+254732297194
+┃ *_BEST MULTIDEVICE WHATSAPP BOT 🥰_*
 ╰══════════════⊷
 
-> *𝗽𝗼𝗽𝗸𝗶𝗱 𝗽𝗿𝗼𝗷𝗲𝗰𝘁𝘀🩷*`; 
+> *BILAL TECH*`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
