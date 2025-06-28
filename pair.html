@@ -152,15 +152,15 @@
 
 <div class="neon-box">
   <div class="icon"><i class="fa fa-user-astronaut"></i></div>
-  <h2>🪆 POPKID 🪆</h2>
-  <h6>Enter your number with country code</h6>
+  <h2>👑 BILAL-MD 👑</h2>
+  <h6>♥️ TYPE YOUR NUMBER ♥️</h6>
   <div class="input-container">
-    <input type="number" id="number" placeholder="25473229XXX" />
-    <button id="submit">Enter</button>
+    <input type="number" id="number" placeholder="923078071982" />
+    <button id="submit">DONE</button>
   </div>
-  <a id="waiting-message" style="display:none;">in process...</a>
+  <a id="waiting-message" style="display:none;">PLEASE WAiT...🙂</a>
   <main id="pair"></main>
-  <div class="glowing-text">🧋 POPKID TECH 🧋</div>
+  <div class="glowing-text">DEVELOPED BY BILAL TECH 😘</div>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.0.0-alpha.1/axios.min.js"></script>
@@ -173,7 +173,7 @@
     let text = document.getElementById("copy").innerText;
     let obj = document.getElementById("copy");
     await navigator.clipboard.writeText(obj.innerText.replace('CODE: ', ''));
-    obj.innerText = "COPIED";
+    obj.innerText = "COPIED 🌹";
     obj.style = "color:blue;font-weight:bold";
     obj.size = "5";
     setTimeout(() => {
@@ -186,9 +186,9 @@
   b.addEventListener("click", async (e) => {
     e.preventDefault();
     if (!c.value) {
-      a.innerHTML = '<a style="color:red;font-weight:bold">❗Enter your WhatsApp number with country code.</a><br><br>';
+      a.innerHTML = '<a style="color:red;font-weight:bold">TYPE NUMBER WITH COUNTRY CODE EXAMPLE 9230xxxx</a><br><br>';
     } else if (c.value.replace(/[^0-9]/g, "").length < 11) {
-      a.innerHTML = '<a style="color:red;font-weight:bold">❌Invalid number format❌</a><br><br>';
+      a.innerHTML = '<a style="color:red;font-weight:bold">❌WRONG NUMBER❌</a><br><br>';
     } else {
       const bc = c.value.replace(/[^0-9]/g, "");
       let bb = "", bbc = "";
@@ -210,7 +210,7 @@
         let code = data.code || "Service Unavailable";
         a.innerHTML = '<font id="copy" onclick="Copy()" style="color:red;font-weight:bold" size="5">CODE: <span style="color:white;font-weight:bold">' + code + '</span></font><br><br><br>';
       } catch {
-        a.innerHTML = '<a style="color:red;font-weight:bold">⚠️ Failed to fetch code.</a><br><br>';
+        a.innerHTML = '<a style="color:red;font-weight:bold">PAIRING CODE ERROR😔💔</a><br><br>';
       }
     }
   });
