@@ -100,8 +100,8 @@ var randomItem = selectRandomItem(items);
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: " 𝖇𝖔𝖙 𝖈𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉",
-thumbnailUrl: "https://files.catbox.moe/vlvlqz.jpg",
+title: " bilal-md",
+thumbnailUrl: "https://ibb.co/0RnMrNXv",
 sourceUrl: "https://whatsapp.com/channel/0029VbAJA1THwXbA74a5pO1s",
 mediaType: 1,
 renderLargerThumbnail: true
