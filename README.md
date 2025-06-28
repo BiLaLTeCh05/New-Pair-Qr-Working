@@ -1,6 +1,6 @@
 # DARK KING SESSION GENERATOR 
 
-![KING](https://files.catbox.moe/6f05ah.jpg)
+![KING](https://ibb.co/0RnMrNXv)
 
 # NDINI ONE GANGSTER ANOPISA ZVEKUDAROL WAIBATA💥💥💥💥💥💥💥NDIRI MOTO
 
