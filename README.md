@@ -1,1 +1,2 @@
-<a href='https://postimg.cc/HJb4mmhN' target='_blank'><img src='https://i.postimg.cc/HJb4mmhN/bilal.jpg' border='0' alt='bilal'/></a>
+<img alt="GOLD-MD" height="400" src="https://i.postimg.cc/7LWBgYMq/bilal.jpg">
+  </a>
