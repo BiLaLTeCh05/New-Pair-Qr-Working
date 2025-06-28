@@ -75,7 +75,7 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "POPKID;;;" + string_session;
+                        let md = "BILAL-MD;;;" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
                         let desc = `*_SESSION ID RECIEVED SUCCESSFULLY_*
 
@@ -103,8 +103,8 @@ var randomItem = selectRandomItem(items);
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "popkid xtech",
-thumbnailUrl: "https://files.catbox.moe/nw3mmc.jpg",
+title: "bilal tech",
+thumbnailUrl: "https://ibb.co/TnTVWTj",
 sourceUrl: "https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l",
 mediaType: 1,
 renderLargerThumbnail: true
