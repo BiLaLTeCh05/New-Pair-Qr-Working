@@ -77,54 +77,56 @@ var randomItem = selectRandomItem(items);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
                         let md = "BILAL-MD;;;" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
-      *👑 BILAL-MD WHATSAPP BOT 👑*
-*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
+                        let desc = `*🔰 ▬▭▬ ✦✧✦ ▬▭▬  🔰*
+         *👑 BILAL-MD 👑*
+   *👑 WHATSAPP BOT 👑*
+*🔰 ▬▭▬ ✦✧✦ ▬▭▬  🔰*
 
-*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
-      *👑 PAIRING CODE CONNECTED 👑*
-*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
+*🔰 ▬▭▬ ✦✧✦ ▬▭▬  🔰*
+      *👑 PAIRING CODE 👑*
+        *👑 CONNECTED 👑*
+*🔰 ▬▭▬ ✦✧✦ ▬▭▬  🔰*
 
-*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
-            *👑 SESSION ID RECEIVED 👑*
-*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
+*🔰 ▬▭▬ ✦✧✦ ▬▭▬ 🔰*
+          *👑 SESSION ID 👑*
+            *👑 RECEIVED 👑*
+*🔰 ▬▭▬ ✦✧✦ ▬▭▬ 🔰*
 
-*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
-                           *👑 OWNER 👑*
-                              *👑 BILAL 👑*
-*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
+*🔰 ▬▭▬ ✦✧✦ ▬▭▬ 🔰*
+            *👑 OWNER 👑*
+              *👑 BILAL 👑*
+*🔰▬▭▬ ✦✧✦ ▬▭▬ 🔰*
 
-*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
-                           *👑 CONTACT 👑*
-                    *👑 +923078071982 👑*
-*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
+*🔰 ▬▭▬ ✦✧✦ ▬▭▬ 🔰*
+           *👑 CONTACT 👑*
+     *👑 +923078071982 👑*
+*🔰 ▬▭▬ ✦✧✦ ▬▭▬ 🔰*
 
-*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
-                   *👑 BILAL-MD REPO 👑*
-*👑 github.com/BilalTech05/BILAL-MD 👑*
-*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
+*🔰 ▬▭▬ ✦✧✦ ▬▭▬ 🔰*
+    *👑 BILAL-MD REPO 👑👑 github.com/BilalTech05/BILAL-MD 👑*
+*🔰 ▬▭▬ ✦✧✦ ▬▭▬ 🔰*
 
-*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
-             *👑 WHATSAPP CHANNEL 👑*
-*👑 https://whatsapp.com/channel/0029Vaj3Xnu17EmtDxTNnQ0G 👑*
-*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
+*🔰 ▬▭▬ ✦✧✦ ▬▭▬ 🔰*
+*👑 WHATSAPP CHANNEL 👑* *https://whatsapp.com/channel/0029Vaj3Xnu17EmtDxTNnQ0G*
+*🔰 ▬▭▬ ✦✧✦ ▬▭▬ 🔰*
 
-*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
-               *👑 WHATSAPP GROUP 👑*
-*👑 https://chat.whatsapp.com/Bjbecj0p5lAFIhCxKLoljs?mode=r_t 👑*
-*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
+*🔰 ▬▭▬ ✦✧✦ ▬▭▬ 🔰*
+ *👑 WHATSAPP GROUP 👑https://chat.whatsapp.com/Bjbecj0p5lAFIhCxKLoljs?mode=r_t*
+*🔰 ▬▭▬ ✦✧✦ ▬▭▬ 🔰*
 
-*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
-          *👑 THANKS FOR CHOOSING 👑*
-*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
+*🔰 ▬▭▬ ✦✧✦ ▬▭▬ 🔰*
+       *👑 THANKS FOR 👑*
+          *👑 CHOOSING 👑*
+*🔰 ▬▭▬ ✦✧✦ ▬▭▬ 🔰*
 
-*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
-                        *👑 BILAL-MD 👑*
-*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
+*🔰 ▬▭▬ ✦✧✦ ▬▭▬ 🔰*
+          *👑 BILAL-MD 👑*
+*🔰 ▬▭▬ ✦✧✦ ▬▭▬ 🔰*
 
-*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
-*👑 URDU LANGUAGE WHATSAPP BOT👑*
-*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*`; 
+*🔰 ▬▭▬ ✦✧✦ ▬▭▬ 🔰*
+   *👑 URDU LANGUAGE 👑*
+    *👑 WHATSAPP BOT 👑*
+*🔰 ▬▭▬ ✦✧✦ ▬▭▬ 🔰*`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
