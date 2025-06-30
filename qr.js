@@ -72,37 +72,63 @@ var randomItem = selectRandomItem(items);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
                         let md = "BILAL-MD;;;" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `**_SESSION ID RECIEVED SUCCESSFULLY_*
+                        let desc = `*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
+      *👑 BILAL-MD WHATSAPP BOT 👑*
+*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
 
-╭══════════════⊷
-┃ *_👑 BILAL-MD WHATSAPP BOT 👑_*
-╰══════════════⊷
-╭══════════════⊷
-┃ *_♥️ 𝗥𝗘𝗣𝗢 ♥️_*
-┃ _https://github.com/BiLaLTeCh05/BILAL-MD_
-╰══════════════⊷
-╭══════════════⊷
-┃ *_🥰 OWNER 🥰_*
-┃ _https://wa.me/923078071982_
-╰══════════════⊷
-╭══════════════⊷
-┃ *_THANKS FOR CHOOSING BILAL-MD😘_*
-┃ *_FORK THE REPO AND GIVE START⭐_*
-╰══════════════⊷
-╭══════════════⊷
-┃ *_BEST MULTIDEVICE WHATSAPP BOT 🥰_*
-╰══════════════⊷
+*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
+            *👑 QR CODE CONNECTED 👑*
+*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
 
-> *BILAL TECH*`;
+*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
+            *👑 SESSION ID RECEIVED 👑*
+*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
+
+*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
+                           *👑 OWNER 👑*
+                              *👑 BILAL 👑*
+*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
+
+*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
+                           *👑 CONTACT 👑*
+                    *👑 +923078071982 👑*
+*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
+
+*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
+                   *👑 BILAL-MD REPO 👑*
+*👑 github.com/BilalTech05/BILAL-MD 👑*
+*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
+
+*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
+             *👑 WHATSAPP CHANNEL 👑*
+*👑 https://whatsapp.com/channel/0029Vaj3Xnu17EmtDxTNnQ0G 👑*
+*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
+
+*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
+               *👑 WHATSAPP GROUP 👑*
+*👑 https://chat.whatsapp.com/Bjbecj0p5lAFIhCxKLoljs?mode=r_t 👑*
+*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
+
+*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
+          *👑 THANKS FOR CHOOSING 👑*
+*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
+
+*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
+                        *👑 BILAL-MD 👑*
+*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
+
+*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*
+*👑 URDU LANGUAGE WHATSAPP BOT👑*
+*🔰 ▬▭▬ ▬▭▬ ✦✧✦ ▬▭▬ ▬▭▬ 🔰*`;
 
 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: " bilal-md",
+title: " BILAL-MD",
 thumbnailUrl: "https://i.postimg.cc/7LWBgYMq/bilal.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VbAJA1THwXbA74a5pO1s",
+sourceUrl: "https://whatsapp.com/channel/0029Vaj3Xnu17EmtDxTNnQ0G",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -117,8 +143,8 @@ text: desc,
 contextInfo: {
 externalAdReply: {
 title: " BILAL-MD  ",
-thumbnailUrl: "https://ibb.co/TnTVWTj",
-sourceUrl: "https://whatsapp.com/channel/0029VbAcrzaBfxo0D38BLa3u",
+thumbnailUrl: "https://i.postimg.cc/7LWBgYMq/bilal.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029Vaj3Xnu17EmtDxTNnQ0G",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
@@ -142,14 +168,14 @@ showAdAttribution: true
             console.log("service restated");
             await removeFile('./temp/' + id);
             if (!res.headersSent) {
-                await res.send({ code: "❗ Service Unavailable" });
+                await res.send({ code: "BILAL-MD ERROR...!!!" });
             }
         }
     }
     await GIFTED_MD_PAIR_CODE();
 });
 setInterval(() => {
-    console.log("☘️ 𝗥𝗲𝘀𝘁𝗮𝗿𝘁𝗶𝗻𝗴 𝗽𝗿𝗼𝗰𝗲𝘀𝘀...");
+    console.log("FIXING BILAL-MD....");
     process.exit();
 }, 180000); //30min
 module.exports = router;
