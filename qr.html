@@ -149,7 +149,7 @@
             if (timeleft <= 0) {
                 clearInterval(downloadTimer);
                 document.getElementById("progressBar").remove();
-                document.getElementById("main").innerHTML = "QR EXPIRED PLEASE REFRESH THE PAGE";
+                document.getElementById("main").innerHTML = "BILAL-MD QR EXPIRED PLEASE REFRESH THE PAGE";
                 document.getElementById("legend").innerHTML = ""
             }
             document.getElementById("progressBar").value = 30 - timeleft;
@@ -164,14 +164,14 @@
             <img id="qr-image" src="/server" alt="QR CODE">
         </div>
         <div id="title-container">
-            <h2 id="main">BilalTech05</h2>
-            <p class="legend" id="legend">👑 BILAL-MD QR 👑</p>
+            <h2 id="main">👑 BILAL-MD 👑</h2>
+            <p class="legend" id="legend">👑 QR CODE 👑</p>
         </div>
         <div id="description-container">
             <p id="semi" class="legend"></p>
             <progress value="0" max="30" id="progressBar"></progress>
         </div>
-        <a href="javascript:history.go(0)" class="reload-button">Reload Page</a>
+        <a href="javascript:history.go(0)" class="reload-button">RESTART</a>
     </div>
 </div>
 </body>
